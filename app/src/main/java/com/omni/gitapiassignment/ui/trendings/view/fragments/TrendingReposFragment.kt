@@ -1,4 +1,4 @@
-package com.omni.gitapiassignment.ui.trendings.view
+package com.omni.gitapiassignment.ui.trendings.view.fragments
 
 import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProviders
@@ -13,16 +13,19 @@ import android.view.View
 import android.widget.AdapterView
 import com.omni.arch.coreUI.disappear
 import com.omni.arch.coreUI.show
+import com.omni.arch.data.CallType
+import com.omni.arch.data.DataTask
 import com.omni.arch.data.Error
 import com.omni.arch.domain.Repo
+import com.omni.gitapiassignment.BaseApplication
 import com.omni.gitapiassignment.KEY_DATA
 import com.omni.gitapiassignment.R
-import com.omni.gitapiassignment.ui.Action
-import com.omni.gitapiassignment.ui.ActionManager
-import com.omni.gitapiassignment.ui.ActionType
-import com.omni.gitapiassignment.ui.BaseFragment
+import com.omni.gitapiassignment.ui.trendings.action.Action
+import com.omni.gitapiassignment.ui.trendings.action.ActionManager
+import com.omni.gitapiassignment.ui.trendings.action.ActionType
 import com.omni.gitapiassignment.ui.trendings.adapter.DataBindingViewHolder
 import com.omni.gitapiassignment.ui.trendings.adapter.ReposRecyclerAdapter
+import com.omni.gitapiassignment.ui.trendings.view.BaseFragment
 import com.omni.gitapiassignment.ui.trendings.viewmodel.TrendingReposViewModel
 import com.omni.gitapiassignment.ui.trendings.viewmodel.TrendingReposViewModelFactory
 import dagger.android.support.AndroidSupportInjection
@@ -93,9 +96,12 @@ class TrendingReposFragment : BaseFragment() {
         if (!isFirstCall) {
             swipe_repos.isRefreshing = true
             hideSearchUI()
+            val dataCall = DataTask(CallType.DATA, BaseApplication.instance.cacheProvider)
+            dataCall.scheduler = trendingReposVM.schedulers.ui()
             trendingReposVM.loadTrendingRepos(
                     selector_lang.selectedItem.toString(),
-                    selector_since.selectedItem.toString()
+                    selector_since.selectedItem.toString(),
+                    dataCall
             )
         }
         isFirstCall = false

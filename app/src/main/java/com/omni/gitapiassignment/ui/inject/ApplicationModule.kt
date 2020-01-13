@@ -1,6 +1,6 @@
 package com.omni.gitapiassignment.ui.inject
 
-import com.omni.gitapiassignment.ui.ActionManager
+import com.omni.gitapiassignment.ui.trendings.action.ActionManager
 import dagger.Module
 import dagger.Provides
 

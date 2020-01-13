@@ -37,7 +37,6 @@
                 android:background="@drawable/background_repo_owner_avatar"
                 android:contentDescription="@null"
                 android:src="@{repo.avatar}"
-                android:transitionName="sharedImage"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
