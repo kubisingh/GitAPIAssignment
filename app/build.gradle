@@ -1,0 +1,66 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.omni.gitapiassignment"
+        minSdkVersion 17
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        // Enabling multidex support.
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+
+    }
+    dataBinding {
+        enabled = true
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':arch')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    // Multidex
+    implementation 'com.android.support:multidex:1.0.3'
+    // ViewModel, Lifecycle and LiveData
+    api 'android.arch.lifecycle:extensions:1.1.1'
+    implementation 'android.arch.lifecycle:common-java8:1.1.1'
+    // Picasso for loading images
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    // Dagger/DI
+    def dagger_version = "2.15"
+    kapt "com.google.dagger:dagger-compiler:$dagger_version"
+    kapt "com.google.dagger:dagger-android-processor:$dagger_version"
+}
+
+configurations.all {
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        def requested = details.requested
+        if (requested.group == 'com.android.support') {
+            if (!requested.name.startsWith("multidex")) {
+                details.useVersion "27.1.1"
+            }
+        }
+    }
+}

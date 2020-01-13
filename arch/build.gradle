@@ -1,0 +1,53 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 27
+
+
+
+    defaultConfig {
+        minSdkVersion 17
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    // Retrofit/Gson
+    api 'com.google.code.gson:gson:2.8.5'
+    api 'com.squareup.retrofit2:retrofit:2.4.0'
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    api 'com.squareup.retrofit2:converter-gson:2.4.0'
+    api 'com.squareup.okhttp3:logging-interceptor:3.11.0'
+    // ReactiveX
+    api 'io.reactivex:rxkotlin:0.60.0'
+    api 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    // Dagger/DI
+    def dagger_version = "2.15"
+    api "com.google.dagger:dagger:$dagger_version"
+    api "com.google.dagger:dagger-android-support:$dagger_version"
+    kapt "com.google.dagger:dagger-compiler:$dagger_version"
+    kapt "com.google.dagger:dagger-android-processor:$dagger_version"
+}
+repositories {
+    mavenCentral()
+}

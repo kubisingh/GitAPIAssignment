@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Trending Android Repos</string>
+    <string name="prompt_written_in">Written in</string>
+    <string name="prompt_by">By</string>
+    <string name="prefix_updated">Updated</string>
+    <string name="view">View</string>
+
+    <string-array name="language_array">
+        <item>java</item>
+        <item>kotlin</item>
+        <item>c</item>
+        <item>c++</item>
+        <item>swift</item>
+    </string-array>
+
+    <string-array name="since_array">
+        <item>weekly</item>
+        <item>monthly</item>
+        <item>daily</item>
+    </string-array>
+</resources>
