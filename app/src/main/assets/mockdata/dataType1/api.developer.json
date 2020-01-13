@@ -1,0 +1,302 @@
+[
+  {
+    "username": "MilosKozak",
+    "name": "Milos Kozak",
+    "type": "user",
+    "url": "https://github.com/MilosKozak",
+    "avatar": "https://avatars2.githubusercontent.com/u/11146458",
+    "repo": {
+      "name": "AndroidAPS",
+      "description": "",
+      "url": "https://github.com/MilosKozak/AndroidAPS"
+    }
+  },
+  {
+    "username": "iBotPeaches",
+    "name": "Connor Tumbleson",
+    "type": "user",
+    "url": "https://github.com/iBotPeaches",
+    "avatar": "https://avatars0.githubusercontent.com/u/611784",
+    "repo": {
+      "name": "Apktool",
+      "description": "A tool for reverse engineering Android apk files",
+      "url": "https://github.com/iBotPeaches/Apktool"
+    }
+  },
+  {
+    "username": "chrisbanes",
+    "name": "Chris Banes",
+    "type": "user",
+    "url": "https://github.com/chrisbanes",
+    "avatar": "https://avatars0.githubusercontent.com/u/227486",
+    "repo": {
+      "name": "PhotoView",
+      "description": "Implementation of ImageView for Android that supports zooming, by various touch gestures.",
+      "url": "https://github.com/chrisbanes/PhotoView"
+    }
+  },
+  {
+    "username": "swankjesse",
+    "name": "Jesse Wilson",
+    "type": "user",
+    "url": "https://github.com/swankjesse",
+    "avatar": "https://avatars2.githubusercontent.com/u/133019",
+    "repo": {
+      "name": "encoding",
+      "description": "Code examples from my 2016 tech talk on encoding",
+      "url": "https://github.com/swankjesse/encoding"
+    }
+  },
+  {
+    "username": "MaikuB",
+    "name": "Michael Bui",
+    "type": "user",
+    "url": "https://github.com/MaikuB",
+    "avatar": "https://avatars0.githubusercontent.com/u/25263378",
+    "repo": {
+      "name": "flutter_local_notifications",
+      "description": "A Flutter plugin for displaying local notifications on Android and iOS",
+      "url": "https://github.com/MaikuB/flutter_local_notifications"
+    }
+  },
+  {
+    "username": "ethomson",
+    "name": "Edward Thomson",
+    "type": "user",
+    "url": "https://github.com/ethomson",
+    "avatar": "https://avatars2.githubusercontent.com/u/1130014",
+    "repo": {
+      "name": "jagged",
+      "description": "java bindings to libgit2",
+      "url": "https://github.com/ethomson/jagged"
+    }
+  },
+  {
+    "username": "sharwell",
+    "name": "Sam Harwell",
+    "type": "user",
+    "url": "https://github.com/sharwell",
+    "avatar": "https://avatars3.githubusercontent.com/u/1408396",
+    "repo": {
+      "name": "antlr4cs",
+      "description": "ANTLR 4 C# Target",
+      "url": "https://github.com/sharwell/antlr4cs"
+    }
+  },
+  {
+    "username": "soulgalore",
+    "name": "Peter Hedenskog",
+    "type": "user",
+    "url": "https://github.com/soulgalore",
+    "avatar": "https://avatars1.githubusercontent.com/u/540757",
+    "repo": {
+      "name": "crawler",
+      "description": "Simple java web crawler",
+      "url": "https://github.com/soulgalore/crawler"
+    }
+  },
+  {
+    "username": "pierre",
+    "name": "Pierre-Alexandre Meyer",
+    "type": "user",
+    "url": "https://github.com/pierre",
+    "avatar": "https://avatars0.githubusercontent.com/u/51940",
+    "repo": {
+      "name": "meteo",
+      "description": "Realtime Analytics",
+      "url": "https://github.com/pierre/meteo"
+    }
+  },
+  {
+    "username": "caseydavenport",
+    "name": "Casey Davenport",
+    "type": "user",
+    "url": "https://github.com/caseydavenport",
+    "avatar": "https://avatars3.githubusercontent.com/u/1944093",
+    "repo": {
+      "name": "biermacht",
+      "description": "Homebrewer's Companion for Android",
+      "url": "https://github.com/caseydavenport/biermacht"
+    }
+  },
+  {
+    "username": "k0shk0sh",
+    "name": "Kosh Sergani",
+    "type": "user",
+    "url": "https://github.com/k0shk0sh",
+    "avatar": "https://avatars1.githubusercontent.com/u/960767",
+    "repo": {
+      "name": "FastHub",
+      "description": "FastHub the ultimate GitHub client for Android.",
+      "url": "https://github.com/k0shk0sh/FastHub"
+    }
+  },
+  {
+    "username": "raxod502",
+    "name": "Radon Rosborough",
+    "type": "user",
+    "url": "https://github.com/raxod502",
+    "avatar": "https://avatars1.githubusercontent.com/u/6559064",
+    "repo": {
+      "name": "TerrariaClone",
+      "description": "🔥 An incomprehensible hellscape of spaghetti code.",
+      "url": "https://github.com/raxod502/TerrariaClone"
+    }
+  },
+  {
+    "username": "anitaa1990",
+    "name": "Anitaa Murthy",
+    "type": "user",
+    "url": "https://github.com/anitaa1990",
+    "avatar": "https://avatars2.githubusercontent.com/u/22608780",
+    "repo": {
+      "name": "Android-Cheat-sheet",
+      "description": "Cheat Sheet for Android Interviews",
+      "url": "https://github.com/anitaa1990/Android-Cheat-sheet"
+    }
+  },
+  {
+    "username": "nkzawa",
+    "name": "Naoyuki Kanezawa",
+    "type": "user",
+    "url": "https://github.com/nkzawa",
+    "avatar": "https://avatars3.githubusercontent.com/u/775227",
+    "repo": {
+      "name": "socket.io-android-chat",
+      "description": "A simple chat demo for socket.io and Android",
+      "url": "https://github.com/nkzawa/socket.io-android-chat"
+    }
+  },
+  {
+    "username": "pivovarit",
+    "name": "Grzegorz Piwowarek",
+    "type": "user",
+    "url": "https://github.com/pivovarit",
+    "avatar": "https://avatars2.githubusercontent.com/u/2182533",
+    "repo": {
+      "name": "parallel-collectors",
+      "description": "Parallel Collectors is a toolkit easining parallel collection processing in Java using Stream API.",
+      "url": "https://github.com/pivovarit/parallel-collectors"
+    }
+  },
+  {
+    "username": "SueSmith",
+    "name": "Sue Smith",
+    "type": "user",
+    "url": "https://github.com/SueSmith",
+    "avatar": "https://avatars0.githubusercontent.com/u/6666370",
+    "repo": {
+      "name": "android-music-player",
+      "description": "Source code from Tuts+ tutorial - Android SDK: Create a Music Player",
+      "url": "https://github.com/SueSmith/android-music-player"
+    }
+  },
+  {
+    "username": "natario1",
+    "name": "Mattia Iavarone",
+    "type": "user",
+    "url": "https://github.com/natario1",
+    "avatar": "https://avatars0.githubusercontent.com/u/15526561",
+    "repo": {
+      "name": "CameraView",
+      "description": "📸 A well documented, high-level Android interface that makes capturing pictures and videos easy, addressing all of the common issues and needs. Real-time filters, gestures, watermarks, frame processing, RAW, output of any size.",
+      "url": "https://github.com/natario1/CameraView"
+    }
+  },
+  {
+    "username": "cowtowncoder",
+    "name": "Tatu Saloranta",
+    "type": "user",
+    "url": "https://github.com/cowtowncoder",
+    "avatar": "https://avatars2.githubusercontent.com/u/55065",
+    "repo": {
+      "name": "java-uuid-generator\n    http://github.com/tlaukkan/mono-uuid-generator",
+      "description": "Java Uuid Generator (JUG) is a library for generating all (3) types of UUIDs on Java. See (http://github.com/tlaukkan/mono-uuid-generator) for C#-based sister project!",
+      "url": "https://github.com/cowtowncoder/java-uuid-generator"
+    }
+  },
+  {
+    "username": "sczyh30",
+    "name": "Eric Zhao",
+    "type": "user",
+    "url": "https://github.com/sczyh30",
+    "avatar": "https://avatars3.githubusercontent.com/u/9434884",
+    "repo": {
+      "name": "vertx-blueprint-microservice",
+      "description": "Vert.x Blueprint Project - Micro-Shop microservice application",
+      "url": "https://github.com/sczyh30/vertx-blueprint-microservice"
+    }
+  },
+  {
+    "username": "michael-simons",
+    "name": "Michael Simons",
+    "type": "user",
+    "url": "https://github.com/michael-simons",
+    "avatar": "https://avatars0.githubusercontent.com/u/526383",
+    "repo": {
+      "name": "biking2\n    http://biking.michael-simons.eu",
+      "description": "This is the source code of http://biking.michael-simons.eu",
+      "url": "https://github.com/michael-simons/biking2"
+    }
+  },
+  {
+    "username": "drewnoakes",
+    "name": "Drew Noakes",
+    "type": "user",
+    "url": "https://github.com/drewnoakes",
+    "avatar": "https://avatars3.githubusercontent.com/u/350947",
+    "repo": {
+      "name": "metadata-extractor",
+      "description": "Extracts Exif, IPTC, XMP, ICC and other metadata from image and video files",
+      "url": "https://github.com/drewnoakes/metadata-extractor"
+    }
+  },
+  {
+    "username": "cketti",
+    "name": "cketti",
+    "type": "user",
+    "url": "https://github.com/cketti",
+    "avatar": "https://avatars2.githubusercontent.com/u/218061",
+    "repo": {
+      "name": "ckChangeLog",
+      "description": "ckChangeLog - An Android Library to display a Change Log",
+      "url": "https://github.com/cketti/ckChangeLog"
+    }
+  },
+  {
+    "username": "mincong-h",
+    "name": "Mincong Huang",
+    "type": "user",
+    "url": "https://github.com/mincong-h",
+    "avatar": "https://avatars2.githubusercontent.com/u/10179217",
+    "repo": {
+      "name": "algorithm-princeton",
+      "description": "Coursera - Introduction to Algorithms",
+      "url": "https://github.com/mincong-h/algorithm-princeton"
+    }
+  },
+  {
+    "username": "mp911de",
+    "name": "Mark Paluch",
+    "type": "user",
+    "url": "https://github.com/mp911de",
+    "avatar": "https://avatars3.githubusercontent.com/u/1035015",
+    "repo": {
+      "name": "logstash-gelf",
+      "description": "Graylog Extended Log Format (GELF) implementation in Java for all major logging frameworks: log4j, log4j2, java.util.logging, logback, JBossAS7 and WildFly 8-12",
+      "url": "https://github.com/mp911de/logstash-gelf"
+    }
+  },
+  {
+    "username": "marcingrzejszczak",
+    "name": "Marcin Grzejszczak",
+    "type": "user",
+    "url": "https://github.com/marcingrzejszczak",
+    "avatar": "https://avatars2.githubusercontent.com/u/3297437",
+    "repo": {
+      "name": "mockito-cookbook",
+      "description": "Repository containing the code present in the Mockito Cookbook book",
+      "url": "https://github.com/marcingrzejszczak/mockito-cookbook"
+    }
+  }
+]

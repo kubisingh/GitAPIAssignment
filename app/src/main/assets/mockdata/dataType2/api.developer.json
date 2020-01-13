@@ -1,0 +1,158 @@
+[
+  {
+    "username": "mikepenz",
+    "name": "Mike Penz",
+    "type": "user",
+    "url": "https://github.com/mikepenz",
+    "avatar": "https://avatars2.githubusercontent.com/u/1476232",
+    "repo": {
+      "name": "MaterialDrawer",
+      "description": "The flexible, easy to use, all in one drawer library for your Android project. Now brand new with material 2 design.",
+      "url": "https://github.com/mikepenz/MaterialDrawer"
+    }
+  },
+  {
+    "username": "cortinico",
+    "name": "Nicola Corti",
+    "type": "user",
+    "url": "https://github.com/cortinico",
+    "avatar": "https://avatars3.githubusercontent.com/u/3001957",
+    "repo": {
+      "name": "slidetoact",
+      "description": "A simple 'Slide to Unlock' Material widget for Android, written in Kotlin 📱🎨🦄",
+      "url": "https://github.com/cortinico/slidetoact"
+    }
+  },
+  {
+    "username": "jponge",
+    "name": "Julien Ponge",
+    "type": "user",
+    "url": "https://github.com/jponge",
+    "avatar": "https://avatars1.githubusercontent.com/u/25961",
+    "repo": {
+      "name": "vertx-gradle-plugin",
+      "description": "An opinionated Gradle plugin for Vert.x projects",
+      "url": "https://github.com/jponge/vertx-gradle-plugin"
+    }
+  },
+  {
+    "username": "anthonycr",
+    "name": "Anthony Restaino",
+    "type": "user",
+    "url": "https://github.com/anthonycr",
+    "avatar": "https://avatars1.githubusercontent.com/u/1966779",
+    "repo": {
+      "name": "Lightning-Browser",
+      "description": "A lightweight Android browser with modern navigation",
+      "url": "https://github.com/anthonycr/Lightning-Browser"
+    }
+  },
+  {
+    "username": "jmfayard",
+    "name": "Jean-Michel Fayard",
+    "type": "user",
+    "url": "https://github.com/jmfayard",
+    "avatar": "https://avatars1.githubusercontent.com/u/459464",
+    "repo": {
+      "name": "gradle-dependencies-plugins",
+      "description": "Gradle dependencies with IDE integration and lookup for available updates",
+      "url": "https://github.com/jmfayard/gradle-dependencies-plugins"
+    }
+  },
+  {
+    "username": "bkonyi",
+    "name": "Ben Konyi",
+    "type": "user",
+    "url": "https://github.com/bkonyi",
+    "avatar": "https://avatars1.githubusercontent.com/u/24210656",
+    "repo": {
+      "name": "FlutterGeofencing",
+      "description": "Rough work for Flutter geofencing plugin",
+      "url": "https://github.com/bkonyi/FlutterGeofencing"
+    }
+  },
+  {
+    "username": "ZacSweers",
+    "name": "Zac Sweers",
+    "type": "user",
+    "url": "https://github.com/ZacSweers",
+    "avatar": "https://avatars3.githubusercontent.com/u/1361086",
+    "repo": {
+      "name": "CatchUp",
+      "description": "An app for catching up on things.",
+      "url": "https://github.com/ZacSweers/CatchUp"
+    }
+  },
+  {
+    "username": "vektah",
+    "name": "Adam Scarr",
+    "type": "user",
+    "url": "https://github.com/vektah",
+    "avatar": "https://avatars2.githubusercontent.com/u/2247982",
+    "repo": {
+      "name": "CodeGlance",
+      "description": "Intelij IDEA plugin for displaying a code mini-map similar to the one found in Sublime",
+      "url": "https://github.com/vektah/CodeGlance"
+    }
+  },
+  {
+    "username": "cmelchior",
+    "name": "Christian Melchior",
+    "type": "user",
+    "url": "https://github.com/cmelchior",
+    "avatar": "https://avatars3.githubusercontent.com/u/406066",
+    "repo": {
+      "name": "realmfieldnameshelper",
+      "description": "Realm extension library used to create more type-safe queries.",
+      "url": "https://github.com/cmelchior/realmfieldnameshelper"
+    }
+  },
+  {
+    "username": "divyanshub024",
+    "name": "Divyanshu Bhargava",
+    "type": "user",
+    "url": "https://github.com/divyanshub024",
+    "avatar": "https://avatars0.githubusercontent.com/u/16731434",
+    "repo": {
+      "name": "AndroidDraw",
+      "description": "A drawing view for your android application.",
+      "url": "https://github.com/divyanshub024/AndroidDraw"
+    }
+  },
+  {
+    "username": "igorwojda",
+    "name": "Igor Wojda",
+    "type": "user",
+    "url": "https://github.com/igorwojda",
+    "avatar": "https://avatars2.githubusercontent.com/u/530122",
+    "repo": {
+      "name": "android-showcase",
+      "description": "💎Android application following best practices: Kotlin, coroutines, Clean Architecture, feature modules, tests, MVVM, static analysis...",
+      "url": "https://github.com/igorwojda/android-showcase"
+    }
+  },
+  {
+    "username": "britter",
+    "name": "Benedikt Ritter",
+    "type": "user",
+    "url": "https://github.com/britter",
+    "avatar": "https://avatars1.githubusercontent.com/u/1327662",
+    "repo": {
+      "name": "spring-boot-heroku-demo",
+      "description": "Demo project showing how to deploy a Spring Boot application to Heroku",
+      "url": "https://github.com/britter/spring-boot-heroku-demo"
+    }
+  },
+  {
+    "username": "LouisCAD",
+    "name": "Louis CAD",
+    "type": "user",
+    "url": "https://github.com/LouisCAD",
+    "avatar": "https://avatars1.githubusercontent.com/u/6975237",
+    "repo": {
+      "name": "Splitties",
+      "description": "A family of small Kotlin libraries for delightful Android development",
+      "url": "https://github.com/LouisCAD/Splitties"
+    }
+  }
+]

@@ -3,20 +3,19 @@ package com.omni.gitapiassignment.ui.trendings.viewmodel
 import android.arch.lifecycle.LiveData
 import android.arch.lifecycle.MutableLiveData
 import android.arch.lifecycle.ViewModel
+import android.util.Log
 import com.omni.arch.data.DataTask
 import com.omni.arch.data.Error
 import com.omni.arch.data.ISchedulersProvider
-import com.omni.arch.data.CallType
 import com.omni.arch.domain.Repo
 import com.omni.arch.domain.RepositoryContract
-import com.omni.gitapiassignment.BaseApplication
 import retrofit2.HttpException
 import java.io.IOException
 import java.net.SocketTimeoutException
 
 class TrendingReposViewModel(
         private val repository: RepositoryContract.ITrendingReposRepository,
-        private val schedulers: ISchedulersProvider
+        val schedulers: ISchedulersProvider
 ) : ViewModel() {
     val errorsLiveData: LiveData<Error> by lazy {
         MutableLiveData<Error>()
@@ -25,11 +24,10 @@ class TrendingReposViewModel(
         MutableLiveData<MutableList<Repo>>()
     }
 
-    fun loadTrendingRepos(language: String, since:String) {
-        val dataCall = DataTask(CallType.DATA, BaseApplication.instance.cacheProvider)
+    fun loadTrendingRepos(language: String, since:String, dataTask: DataTask) {
         repository
-                .loadTrendingRepos(language, since, dataCall)
-                .observeOn(schedulers.ui())
+                .loadTrendingRepos(language, since, dataTask)
+                .observeOn(dataTask.scheduler)
                 .subscribe({
                     (errorsLiveData as MutableLiveData<*>).value = Error.SUCCESS
                     (reposLiveData as MutableLiveData<*>).value = it

@@ -1,4 +1,4 @@
-package com.omni.gitapiassignment.ui
+package com.omni.gitapiassignment.ui.trendings.action
 
 import android.os.Bundle
 import com.omni.gitapiassignment.ui.trendings.adapter.DataBindingViewHolder
