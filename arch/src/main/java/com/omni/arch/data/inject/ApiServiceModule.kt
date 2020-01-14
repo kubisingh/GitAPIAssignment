@@ -6,6 +6,7 @@ import com.omni.arch.data.GithubWebservice
 import com.omni.arch.data.NAMED_REST_API_URL
 import dagger.Module
 import dagger.Provides
+import dagger.Reusable
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.CallAdapter

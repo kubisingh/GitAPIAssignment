@@ -2,10 +2,12 @@ package com.omni.gitapiassignment.ui.trendings.adapter
 
 import android.databinding.DataBindingUtil
 import android.databinding.ViewDataBinding
+import android.support.v4.view.ViewCompat
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.ImageView
+import android.widget.TextView
 import com.omni.arch.domain.Repo
 import com.omni.gitapiassignment.BR
 import com.omni.gitapiassignment.R
@@ -22,6 +24,7 @@ class ReposRecyclerAdapter(val repos: MutableList<Repo>)
                 DataBindingUtil.inflate(layoutInflater, R.layout.row_repo, parent, false)
         val holder = DataBindingViewHolder(binding)
         holder.imageView = binding.root.findViewById<ImageView>(R.id.shared_image_repo_owner)
+        holder.nameView = binding.root.findViewById<TextView>(R.id.shared_text_name)
         return holder
     }
 
@@ -29,6 +32,8 @@ class ReposRecyclerAdapter(val repos: MutableList<Repo>)
 
     override fun onBindViewHolder(holder: DataBindingViewHolder, position: Int) {
         holder.bindVariable(BR.repo, repos[position])
+        ViewCompat.setTransitionName(holder.imageView, repos[position].username)
+        ViewCompat.setTransitionName(holder.nameView, repos[position].username+"_name")
         holder.itemView.setOnClickListener { _ ->
             onRepoItemClickListener?.let { it(repos[holder.adapterPosition], holder) }
         }

@@ -4,5 +4,6 @@ enum class CallType {
     DATA,
     NETWORK,
     CACHE,
-    REMOVE_CACHE
+    REMOVE_CACHE,
+    MOCK
 }
