@@ -65,7 +65,6 @@ class TrendingReposRepository @Inject constructor(private val webservice: Github
                 val listType: Type = object : TypeToken<List<Repo>>() {}.type
                 return Single.just(Gson().fromJson<List<Repo>>(json, listType))
             }
-
         } catch (ex: IllegalStateException) {
             ex.printStackTrace()
         }catch (ex: Exception) {

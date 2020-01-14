@@ -17,6 +17,7 @@ class TrendingReposViewModel(
         private val repository: RepositoryContract.ITrendingReposRepository,
         val schedulers: ISchedulersProvider
 ) : ViewModel() {
+
     val errorsLiveData: LiveData<Error> by lazy {
         MutableLiveData<Error>()
     }
